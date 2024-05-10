@@ -20,4 +20,7 @@ spring:
             - Path=/api/v1/school/**
 server:
   port: 8222
-
+management:
+  tracing:
+    sampling:
+      probability: 1.0
